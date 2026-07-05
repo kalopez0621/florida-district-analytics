@@ -2,7 +2,7 @@
 
 I built this dashboard to show how I work with K-12 assessment data. It pulls from Florida's FAST assessment framework and covers three real Miami-Dade middle schools, looking at their demographics, proficiency rates, learning gains, and where students are falling through the cracks.
 
-**[Live Dashboard](https://your-url-here.streamlit.app)** *(update after deployment)*
+**[Live Dashboard]((https://florida-district-analytics-c5mojaukanfvquwruyfwau.streamlit.app/))** 
 
 ---
 
