@@ -65,4 +65,27 @@ Built with Python, Streamlit, Pandas, and Plotly.
 
 ---
 
+## SQL Analysis Notebook
+
+The repo also includes `sql_analysis.ipynb`, a Jupyter notebook that runs the same dataset through SQL instead of Python. It loads the CSV into an in-memory SQLite database and works through the analysis using progressively more advanced SQL:
+
+- **Proficiency rates** by school using CASE WHEN and filtered aggregation
+- **Learning gains** comparing PM3 scores to prior year (2425) baselines against Pts4LG targets
+- **Subgroup equity** with ELL vs Non-ELL proficiency gaps using NULL-based conditional averages
+- **Bubble students** using CTEs (Common Table Expressions) and JOINs against FLDOE proficiency cuts
+- **Student rankings** using window functions (RANK with PARTITION BY)
+- **PM1 to PM3 score trajectories** with Plotly line chart visualization
+- **All 7 School Grades components** in a single query with grouped bar chart
+
+The notebook demonstrates the same FLDOE rules applied in the dashboard, but expressed in SQL rather than Pandas.
+
+To run the notebook:
+
+```bash
+pip install nbformat
+jupyter notebook sql_analysis.ipynb
+```
+
+---
+
 Built by Karla Lopez.
