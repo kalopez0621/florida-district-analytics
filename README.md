@@ -4,6 +4,8 @@ I built this dashboard to show how I work with K-12 assessment data. It pulls fr
 
 **[Live Dashboard](https://florida-district-analytics-c5mojaukanfvquwruyfwau.streamlit.app/)**
 
+![Dashboard Preview](dashboard_preview.png)
+
 ---
 
 ## What It Does
